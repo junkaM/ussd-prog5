@@ -1,6 +1,6 @@
 package org.prog5;
 
-class Transaction {
+public class Transaction {
     static boolean transferMoney(User sender, User receiver, double amount, String pin) {
         if (!sender.verifyPin(pin) || amount <= 0 || sender.getBalance() < amount) {
             return false;
@@ -18,7 +18,7 @@ class Transaction {
         return true;
     }
 
-    static boolean buyCredit(User user, double amount, String phoneNumber, String pin) {
+    static boolean buyCredit(User user, double amount, String pin, String phoneNumber) {
         if (!user.verifyPin(pin) || amount <= 0 || user.getBalance() < amount) {
             return false;
         }

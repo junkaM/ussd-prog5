@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-class USSDMenu {
+public class USSDMenu {
     private final List<User> users;
     private final BufferedReader reader;
 

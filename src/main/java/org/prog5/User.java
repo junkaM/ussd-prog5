@@ -1,6 +1,6 @@
 package org.prog5;
 
-class User {
+public class User {
     private final String phoneNumber;
     private double balance;
     private double savings;

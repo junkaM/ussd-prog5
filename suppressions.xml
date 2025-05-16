@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD Suppression 1.1//EN"
+        "https://checkstyle.org/dtds/suppressions_1_1.dtd">
+<suppressions>
+    <suppress checks="LineLength" files="USSDMenu.java" lines="123"/>
+</suppressions>
